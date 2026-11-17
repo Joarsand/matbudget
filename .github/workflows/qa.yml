@@ -2,6 +2,14 @@ name: Matbudget QA
 on:
   push:
     branches: [main]
+    paths:
+      - 'web/**'
+      - 'server/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'server.mjs'
+      - 'package.json'
+      - '.github/workflows/qa.yml'
   workflow_dispatch:
 permissions:
   contents: read
