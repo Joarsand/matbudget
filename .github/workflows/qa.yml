@@ -1,0 +1,38 @@
+name: Matbudget QA
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser-journeys:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Restore checked archive asset
+        run: python scripts/restore-assets.py
+      - name: Unit and importer tests
+        run: |
+          node --test tests/*.test.mjs
+          python -m unittest discover -s tests -p 'test_*.py'
+      - name: Install isolated test browsers
+        run: |
+          python -m pip install playwright==1.64.0
+          python -m playwright install --with-deps chromium firefox webkit
+      - name: Chromium, Firefox and WebKit journeys
+        run: python tests/cross_browser_journey.py
+      - name: Save test results and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-journeys
+          path: test-artifacts/journey-*
+          retention-days: 7
