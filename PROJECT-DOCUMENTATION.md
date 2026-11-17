@@ -81,16 +81,9 @@ node --test tests/*.test.mjs
 
 Local AI is disabled without explicit server configuration. `.env.example` documents configuration; the dependency-free server does not automatically load `.env` files. Live AI also needs AWS permissions and a private access code. The archive intentionally excludes private `var/` state, credentials, runtime caches and logs. Live imported data held outside source may need regeneration; a fresh local copy can therefore display missing prices.
 
-## Supplementary QA and security work
+## Matbudget QA
 
-Separate tools were developed for browser QA and authorised assessment of `dev.nation.dev`. QA supports Chromium, Firefox and WebKit, parallel workers, grouped reports, screenshots and manual triage. The security tooling uses official OWASP ZAP passive analysis plus limited single-account, read-only access comparisons. It is not a complete penetration test or a destructive scanner.
-
-Existing report locations in the private NationDev repository:
-
-- QA: https://github.com/NationDev-APL/aws-devops-level3-iteration5/tree/joar.sandholm/qa-reports/nation-dev
-- Security: https://github.com/NationDev-APL/aws-devops-level3-iteration5/tree/joar.sandholm/pentest-reports/dev-nation-dev
-
-These links require repository access and are supplementary evidence, not the Matbudget source link. Do not attach private security runtime data or session caches to the coursework.
+Matbudget has its own automated unit, importer and browser checks. Current results and limitations are recorded in docs/PROGRESS-2026-11-17.md. Only Matbudget code and documentation belong in this repository.
 
 ## Conclusion and next steps
 
