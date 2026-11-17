@@ -1,0 +1,125 @@
+{
+  "oats": {
+    "sourceUrl": "https://www.willys.se/search?q=havregryn&storeId=2295&size=16&page=0",
+    "results": [
+      {
+        "code": "100132296_ST",
+        "name": "Havregryn",
+        "displayVolume": "750g",
+        "outOfStock": false,
+        "addToCartDisabled": false,
+        "notAllowedAnonymous": false,
+        "priceValue": 13.9,
+        "priceUnit": "kr/st",
+        "manufacturer": "Axa"
+      }
+    ]
+  },
+  "rice": {
+    "sourceUrl": "https://www.willys.se/search?q=basmatiris&storeId=2295&size=16&page=0",
+    "results": [
+      {
+        "code": "101277483_ST",
+        "name": "Basmatiris",
+        "displayVolume": "2kg",
+        "outOfStock": false,
+        "addToCartDisabled": false,
+        "notAllowedAnonymous": false,
+        "priceValue": 41.9,
+        "priceUnit": "kr/st",
+        "manufacturer": "Eldorado"
+      }
+    ]
+  },
+  "eggs": {
+    "sourceUrl": "https://www.willys.se/search?q=%C3%A4gg+frig%C3%A5ende&storeId=2295&size=16&page=0",
+    "results": [
+      {
+        "code": "101718037_ST",
+        "name": "Ägg 24p Frigående Inomhus Medium",
+        "displayVolume": "24p",
+        "outOfStock": false,
+        "addToCartDisabled": false,
+        "notAllowedAnonymous": false,
+        "priceValue": 59.9,
+        "priceUnit": "kr/st",
+        "manufacturer": "Garant"
+      },
+      {
+        "code": "101591614_ST",
+        "name": "Ägg 18p Frigående Inomhus Medium / Large",
+        "displayVolume": "18p",
+        "outOfStock": false,
+        "addToCartDisabled": false,
+        "notAllowedAnonymous": false,
+        "priceValue": 47.9,
+        "priceUnit": "kr/st",
+        "manufacturer": "Garant"
+      }
+    ]
+  },
+  "pasta": {
+    "sourceUrl": "https://www.willys.se/search?q=spaghetti&storeId=2295&size=16&page=0",
+    "results": [
+      {
+        "code": "101240219_ST",
+        "name": "Spaghetti Pasta",
+        "displayVolume": "1kg",
+        "outOfStock": false,
+        "addToCartDisabled": false,
+        "notAllowedAnonymous": false,
+        "priceValue": 13.5,
+        "priceUnit": "kr/st",
+        "manufacturer": "Monte Castello"
+      }
+    ]
+  },
+  "lentils": {
+    "sourceUrl": "https://www.willys.se/search?q=r%C3%B6da+linser&storeId=2295&size=16&page=0",
+    "results": [
+      {
+        "code": "101310192_ST",
+        "name": "Röda Linser",
+        "displayVolume": "800g",
+        "outOfStock": false,
+        "addToCartDisabled": false,
+        "notAllowedAnonymous": false,
+        "priceValue": 26.9,
+        "priceUnit": "kr/st",
+        "manufacturer": "Eldorado"
+      }
+    ]
+  },
+  "tofu": {
+    "sourceUrl": "https://www.willys.se/search?q=tofu+naturell&storeId=2295&size=16&page=0",
+    "results": [
+      {
+        "code": "101358420_ST",
+        "name": "Naturell Tofu Fast Vegansk",
+        "displayVolume": "200g",
+        "outOfStock": false,
+        "addToCartDisabled": false,
+        "notAllowedAnonymous": false,
+        "priceValue": 11.9,
+        "priceUnit": "kr/st",
+        "manufacturer": "Eldorado"
+      }
+    ]
+  },
+  "salt": {
+    "sourceUrl": "https://www.willys.se/search?q=salt+med+jod&storeId=2295&size=16&page=0",
+    "results": [
+      {
+        "code": "100454982_ST",
+        "name": "Salt med Jod Extra Fint",
+        "displayVolume": "125g",
+        "outOfStock": false,
+        "addToCartDisabled": false,
+        "notAllowedAnonymous": false,
+        "priceValue": 6.9,
+        "priceUnit": "kr/st",
+        "manufacturer": "Jozo"
+      }
+    ]
+  }
+}
