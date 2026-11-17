@@ -1,0 +1,16 @@
+import {products,productMap} from './data.mjs';
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+// "nuts" remains the legacy peanut key so saved exclusions retain their meaning.
+export const allergenOptions=[['milk','Mjölk'],['egg','Ägg'],['nuts','Jordnötter'],['soy','Soja'],['gluten','Spannmål med gluten'],['fish','Fisk']];
+const pending=['Nötter (t.ex. mandel och hasselnöt)','Kräftdjur','Blötdjur','Selleri','Senap','Sesamfrön','Lupin','Svaveldioxid och sulfiter'];
+export function allergenHelp(){return '<p class="field-hint">Filtren tar bort recept med de angivna råvarorna. De kontrollerar inte alla sammansatta produkter eller spår av allergener. Kontrollera alltid förpackningarna.</p><details><summary>Övriga grupper på allergenlistan</summary><p class="field-hint">'+pending.map(esc).join(' · ')+'. Dessa grupper kan ännu inte kontrolleras i hela produktunderlaget och visas därför inte som fungerande allergifilter.</p><a href="https://www.livsmedelsverket.se/livsmedel-och-innehall/text-pa-forpackning-markning/allergimarkning/" target="_blank" rel="noopener">Livsmedelsverkets allergenlista</a></details>';}
+const groups=[['Grönsaker, frukt och svamp',['potato','onion','carrot','broccoli','spinach','banana','apple','peas','mushroom','corn','garlic','lemon','cucumber','tomato']],['Bönor, linser och växtbaserat',['lentils','chickpeas','beans','tofu','peanut','oatdrink']],['Mejeri och ägg',['milk','yogurt','eggs','cheese']],['Kött och fisk',['chicken','mince','salmon']],['Spannmål och basvaror',['oats','rice','pasta','bread','tortilla','couscous','oil','salt','curry']]];
+export function ingredientChoices(name,values,prefix){
+ const selected=new Set(values||[]);
+ return `<label class="field-label" for="${prefix}-search">Sök bland ${products.length} receptingredienser</label><input id="${prefix}-search" type="search" placeholder="Till exempel svamp, fisk eller mjölk"><p id="${prefix}-count" class="field-hint" role="status"></p><div id="${prefix}-groups">`+groups.map(([label,ids],i)=>`<details class="ingredient-group" ${i===0||ids.some(id=>selected.has(id))?'open':''}><summary>${esc(label)}</summary><div class="quiz-choices check-list">${ids.map(id=>`<label data-ingredient="${id}"><input name="${name}" type="checkbox" value="${id}" ${selected.has(id)?'checked':''}><span><b>${esc(productMap[id].name)}</b></span></label>`).join('')}</div></details>`).join('')+'</div>';
+}
+export function bindIngredientSearch(prefix){
+ const search=document.getElementById(prefix+'-search'),root=document.getElementById(prefix+'-groups'),count=document.getElementById(prefix+'-count');
+ const update=()=>{const query=search.value.trim().toLocaleLowerCase('sv-SE');let visible=0;for(const group of root.querySelectorAll('.ingredient-group')){let found=0;for(const label of group.querySelectorAll('[data-ingredient]')){const match=label.textContent.toLocaleLowerCase('sv-SE').includes(query);label.hidden=!match;if(match){visible++;found++;}}group.hidden=found===0;if(query&&found)group.open=true;}count.textContent=root.querySelectorAll('input:checked').length+' valda · '+visible+' av '+products.length+' ingredienser'+(!visible?' · inga träffar':'');};
+ search.addEventListener('input',update);root.addEventListener('change',update);update();
+}

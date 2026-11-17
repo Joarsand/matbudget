@@ -1,0 +1,65 @@
+:root{--surface:#fff;--accent:#214b3e}.theme-toggle{white-space:nowrap}.quiz-header-actions{display:flex;gap:12px;align-items:center}.auto-list-label{margin-left:auto;align-self:center;font-size:10px;color:var(--muted)}.tabs{flex-wrap:wrap}:root .store-choices span{opacity:1;color:var(--muted);font-weight:500}:root .store-choices input:checked+span{color:var(--ink);font-weight:700}
+:root[data-theme=dark]{color-scheme:dark;--ink:#e0e9dd;--green:#365a45;--green-light:#2b3c2c;--muted:#a9b7a2;--paper:#131c17;--cream:#19251d;--line:#354335;--surface:#1d2a21;--accent:#b5d09d;--orange:#e2b27b;--red:#f2afa3}
+:root[data-theme=dark] .sidebar{background:var(--cream)}
+:root[data-theme=dark] input[type=number],:root[data-theme=dark] input[type=date],:root[data-theme=dark] input[type=month],:root[data-theme=dark] select{background:#17231b;border-color:#495b43;color:var(--ink)}
+:root[data-theme=dark] .money-input{background:#17231b;border-color:#495b43}:root[data-theme=dark] .money-input input{background:transparent}
+:root[data-theme=dark] .field-label,:root[data-theme=dark] .recipe-type{color:#b4c5a9}
+:root[data-theme=dark] .segmented{background:#111b14;border-color:#495b43}:root[data-theme=dark] .segmented input:checked+span{background:#344a32;color:#e5f0df}
+:root[data-theme=dark] .meal-choices span,:root[data-theme=dark] .store-choices span,:root[data-theme=dark] .quiz-choices span{background:#1d2a21;border-color:#405139;color:#a8b99a}
+:root[data-theme=dark] .meal-choices input:checked+span,:root[data-theme=dark] .store-choices input:checked+span,:root[data-theme=dark] .quiz-choices input:checked+span{background:#30442c;border-color:#8ba174;color:#e3eddb}
+:root[data-theme=dark] .quiz-choices input:checked+span:after{color:#c1dca5}
+:root[data-theme=dark] .primary{background:#b0cc99;color:#142315}:root[data-theme=dark] .primary:hover{background:#c1dcab}
+:root[data-theme=dark] .prototype-badge,:root[data-theme=dark] .outline,:root[data-theme=dark] .icon-button{border-color:#495b43}
+:root[data-theme=dark] .demo-banner{background:#342d1f;border-color:#594b30;color:#ead2aa}
+:root[data-theme=dark] .demo-icon{border-color:#b59a66}
+:root[data-theme=dark] .budget-overview,:root[data-theme=dark] .recipe-card,:root[data-theme=dark] .store-card,:root[data-theme=dark] .day-tab{background:var(--surface)}
+:root[data-theme=dark] .budget-stat.balance,:root[data-theme=dark] .store-card.best{background:#2a3927}
+:root[data-theme=dark] .balance strong{color:#c7dfae}:root[data-theme=dark] .balance.over{background:#422c25}:root[data-theme=dark] .balance.over strong{color:#f2afa3}
+:root[data-theme=dark] .mini-demo,:root[data-theme=dark] .data-pill{background:#342d1f;color:#e0c69c;border-color:#594b30}
+:root[data-theme=dark] progress,:root[data-theme=dark] progress::-webkit-progress-bar{background:#344531}:root[data-theme=dark] progress::-webkit-progress-value{background:#b1cb95}:root[data-theme=dark] progress::-moz-progress-bar{background:#b1cb95}
+:root[data-theme=dark] .day-tab.active{background:#b1cb95;color:#35502b}:root[data-theme=dark] .day-tab.active b{color:#152713}
+:root[data-theme=dark] .tab span{background:#344a2d;color:#d5e6c5}:root[data-theme=dark] .tab.active:after{background:#b1cb95}
+:root[data-theme=dark] .diet-tag{color:#b0c99c}:root[data-theme=dark] .best-label{background:#3b522e;color:#d8ecc7}
+:root[data-theme=dark] .store-card.best{border-color:#7b9664}
+:root[data-theme=dark] .store-logo.willys,:root[data-theme=dark] .store-logo.hemkop,:root[data-theme=dark] .store-logo.handlarn,:root[data-theme=dark] .store-logo.matoppet,:root[data-theme=dark] .store-logo.tempo,:root[data-theme=dark] .store-logo.ica{color:#f0a394}
+:root[data-theme=dark] .store-logo.coop,:root[data-theme=dark] .store-logo.mathem,:root[data-theme=dark] .store-logo.matsmart{color:#b1d6a9}
+:root[data-theme=dark] .store-logo.lidl,:root[data-theme=dark] .store-logo.eurocash{color:#a8c6f0}:root[data-theme=dark] .store-logo.citygross{color:#e9bc82}:root[data-theme=dark] .store-logo.xtra{color:#d7b9ee}
+:root[data-theme=dark] .ai-preview,:root[data-theme=dark] .split-summary{background:#233322;border-color:#4d6241}
+:root[data-theme=dark] dialog::backdrop{background:#020a06a6}
+:root[data-theme=dark] .recipe-type{background:#1d2a21dc}
+:root[data-theme=dark] .side-footer{border-color:var(--line)}
+@media(max-width:650px){.topbar-actions{gap:6px}.topbar-actions .button{font-size:10px;padding:8px}.auto-list-label{width:100%;margin:0 0 8px;font-size:9px}.quiz-header{flex-wrap:wrap;gap:8px}.quiz-header-actions{gap:10px}.quiz-header .eyebrow{font-size:8px}}
+@media print{:root[data-theme=dark]{color-scheme:light;--ink:#203c32;--muted:#586251;--paper:#fff;--line:#d4d9cf}:root[data-theme=dark] body,:root[data-theme=dark] .budget-overview,:root[data-theme=dark] .budget-stat.balance,:root[data-theme=dark] .balance.over{background:white;color:#203c32}:root[data-theme=dark] .balance strong{color:#203c32}}
+/* Optional AI access control follows the selected theme. */
+.ai-preview input[type="password"] { display:block; width:min(100%,22rem); box-sizing:border-box; padding:.7rem .85rem; border:1px solid #b7c4b4; border-radius:8px; color:#183d32; background:#fff; font:inherit; }
+html[data-theme="dark"] .ai-preview input[type="password"] { background:#142820; color:#edf4e9; border-color:#496453; }
+
+.price-source-panel{margin-top:1.5rem;padding:1.2rem;border:1px solid #aebfa8;border-radius:12px}.price-source-panel details{margin-top:1rem}.verified-price-row{padding:.9rem 0;border-bottom:1px solid #aebfa8}.verified-price-row p{margin:.3rem 0}.price-source-panel a{color:inherit;text-decoration:underline}.price-source-panel small{font-size:.8rem}
+
+.matmoms-source-panel input[type=search]{width:100%;box-sizing:border-box;border:1px solid #aebfa8;border-radius:8px;padding:.7rem;color:inherit;background:transparent;font:inherit}.matmoms-source-panel h3{margin-top:0}
+
+.missing-prices{margin-top:12px;font-size:.82rem}.missing-prices summary{cursor:pointer}.missing-prices ul{padding-left:18px;line-height:1.7}.cart-price-label{font-weight:600}#apply-matmoms{margin:8px 0;width:100%;white-space:normal}
+
+.brand-price-data{margin-top:12px;font-size:.8rem;overflow-wrap:anywhere}.brand-price-data summary{cursor:pointer;line-height:1.5}.brand-price-list{list-style:none;padding:0;max-height:340px;overflow:auto}.brand-price-list li{padding:10px 0;border-bottom:1px solid var(--border,#62785c)}.brand-price-list strong{font-size:.85rem;display:block;line-height:1.45}.brand-price-list small{display:block;margin-top:4px;line-height:1.5}.use-brand-matmoms{margin-top:10px;text-align:left;white-space:normal}
+
+.recipe-missing-prices{font-size:.78rem;line-height:1.5;margin:8px 0}.recipe-missing-prices summary{cursor:pointer}.recipe-missing-prices p{margin-top:8px}.quiz-ai{border-top:1px solid var(--border,#62785c);margin-top:20px;padding-top:16px}.quiz-ai input[type=password]{width:100%}
+
+#find-nearby{margin:8px 0;width:100%}#postal-code{width:100%}#nearby-stores p{margin:12px 0}#nearby-stores small{display:block;font-size:.76rem;line-height:1.5}.local-price-source{padding:10px;border-left:3px solid #90a76e;font-size:.8rem;line-height:1.6}
+
+.recipe-photo{position:relative;aspect-ratio:9/8;background-image:url('./food-atlas-v1.png');background-size:400% 300%;background-repeat:no-repeat;background-color:#ece6d9;overflow:hidden}
+.recipe-photo>span{position:absolute;bottom:8px;left:8px;right:8px;width:max-content;max-width:calc(100% - 16px);background:rgba(20,35,27,.8);color:#fff;padding:4px 7px;border-radius:5px;font:10px/1.3 system-ui}
+.recipe-actions{flex-wrap:wrap;gap:8px}.favorite-recipe[aria-pressed=true]{color:#b5573f}.recipe-library{margin:40px 0;padding-top:30px;border-top:1px solid #83987855}.library-tools{display:flex;flex-wrap:wrap;align-items:end;gap:18px}.library-tools label{display:grid;gap:8px;font-size:.85rem;flex:1;min-width:150px}.library-tools .library-favorite-filter{display:flex;align-items:center;gap:8px}.library-tools input[type=checkbox]{width:auto}#recipe-library-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:18px 0}.library-card{overflow:hidden;border:1px solid #83987855;border-radius:14px;background:var(--panel,#f7f7ef)}.library-card-body{padding:16px}.library-card h4{font-size:1.1rem;margin:10px 0;line-height:1.4}.library-card small{font-size:.72rem}.library-card .recipe-photo{aspect-ratio:9/8}.library-card-body .text-button{white-space:normal;text-align:left}#library-count{font-size:.85rem;margin-top:16px}[data-theme=dark] .library-card{background:#1b2b21}@media(max-width:850px){#recipe-library-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:500px){#recipe-library-grid{grid-template-columns:1fr}.library-tools{display:grid}.recipe-photo{max-height:340px}}
+#cuisine-options{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}#cuisine-options label{display:flex;align-items:center;gap:8px;min-width:0;white-space:normal;overflow-wrap:anywhere}#cuisine-options input{width:auto;flex:none}
+
+#recipe-detail .recipe-photo{max-width:360px;margin:0 auto 24px;border-radius:12px}
+
+:root:not([data-theme=dark]){--muted:#596653}fieldset legend{color:var(--muted)}
+
+.privacy,.side-footer,.main-footer{color:var(--muted)}
+:root:not([data-theme=dark]) .diet-tag{color:#4b6542}
+:root:not([data-theme=dark]) .data-pill{color:#71552c}
+:root:not([data-theme=dark]) .best-label{color:#39552f}
+
+.plan-tools,.product-swaps{margin:1.5rem 0;padding:1.2rem;border:1px solid var(--border,#64745b);border-radius:12px}.plan-tools textarea{display:block;width:100%;box-sizing:border-box;padding:.8rem;background:var(--surface,#1b2c20);color:inherit;border:1px solid #728067;border-radius:8px}.plan-tools li{margin:.5rem 0} #edit-preview{padding-top:1rem}
+
+.ingredient-group{margin:.6rem 0}.ingredient-group summary{padding:.5rem 0;font-weight:600}.ingredient-group .check-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.5rem}.ingredient-group input[type=checkbox]{flex-shrink:0}.ingredient-group label{min-width:0}.ingredient-group label b{overflow-wrap:anywhere;font-size:12px}.ingredient-group .quiz-choices{margin:.5rem 0}
