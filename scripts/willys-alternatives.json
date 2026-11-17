@@ -1,0 +1,98 @@
+{
+  "oats": [
+    {
+      "sku": "100132296_ST",
+      "name": "Havregryn",
+      "package": "750g",
+      "quantity": 750,
+      "unit": "g",
+      "retailPriceBasis": "pack",
+      "allergens": [
+        "gluten"
+      ]
+    }
+  ],
+  "rice": [
+    {
+      "sku": "101277483_ST",
+      "name": "Basmatiris",
+      "package": "2kg",
+      "quantity": 2000,
+      "unit": "g",
+      "retailPriceBasis": "pack",
+      "allergens": []
+    }
+  ],
+  "eggs": [
+    {
+      "sku": "101591614_ST",
+      "name": "Ägg 18p Frigående Inomhus Medium / Large",
+      "package": "18p",
+      "quantity": 18,
+      "unit": "st",
+      "retailPriceBasis": "pack",
+      "allergens": [
+        "egg"
+      ]
+    },
+    {
+      "sku": "101718037_ST",
+      "name": "Ägg 24p Frigående Inomhus Medium",
+      "package": "24p",
+      "quantity": 24,
+      "unit": "st",
+      "retailPriceBasis": "pack",
+      "allergens": [
+        "egg"
+      ]
+    }
+  ],
+  "pasta": [
+    {
+      "sku": "101240219_ST",
+      "name": "Spaghetti Pasta",
+      "package": "1kg",
+      "quantity": 1000,
+      "unit": "g",
+      "retailPriceBasis": "pack",
+      "allergens": [
+        "gluten"
+      ]
+    }
+  ],
+  "lentils": [
+    {
+      "sku": "101310192_ST",
+      "name": "Röda Linser",
+      "package": "800g",
+      "quantity": 800,
+      "unit": "g",
+      "retailPriceBasis": "pack",
+      "allergens": []
+    }
+  ],
+  "tofu": [
+    {
+      "sku": "101358420_ST",
+      "name": "Naturell Tofu Fast Vegansk",
+      "package": "200g",
+      "quantity": 200,
+      "unit": "g",
+      "retailPriceBasis": "pack",
+      "allergens": [
+        "soy"
+      ]
+    }
+  ],
+  "salt": [
+    {
+      "sku": "100454982_ST",
+      "name": "Salt med Jod Extra Fint",
+      "package": "125g",
+      "quantity": 125,
+      "unit": "g",
+      "retailPriceBasis": "pack",
+      "allergens": []
+    }
+  ]
+}

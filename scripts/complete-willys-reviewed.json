@@ -1,0 +1,368 @@
+{
+  "oats": {
+    "sku": "101833307_ST",
+    "query": "havregryn",
+    "name": "Havregryn",
+    "manufacturer": "Garant",
+    "package": "1,5kg",
+    "quantity": 1500,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "oatdrink": {
+    "sku": "101328964_ST",
+    "query": "havredryck",
+    "name": "Havredryck Vegetabilisk 1,5%",
+    "manufacturer": "Garant",
+    "package": "1l",
+    "quantity": 1000,
+    "unit": "ml",
+    "retailPriceBasis": "pack"
+  },
+  "milk": {
+    "sku": "101205823_ST",
+    "query": "mellanmjölk",
+    "name": "Mellanmjölk 1,5%",
+    "manufacturer": "Garant",
+    "package": "1l",
+    "quantity": 1000,
+    "unit": "ml",
+    "retailPriceBasis": "pack"
+  },
+  "yogurt": {
+    "sku": "101288872_ST",
+    "query": "yoghurt naturell",
+    "name": "Naturell Mild Yoghurt 3%",
+    "manufacturer": "Arla Ko",
+    "package": "1kg",
+    "quantity": 1000,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "rice": {
+    "sku": "101488798_ST",
+    "query": "basmatiris",
+    "name": "Basmatiris",
+    "manufacturer": "Garant",
+    "package": "1kg",
+    "quantity": 1000,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "pasta": {
+    "sku": "101548685_ST",
+    "query": "spaghetti",
+    "name": "Spaghetti",
+    "manufacturer": "Garant",
+    "package": "1kg",
+    "quantity": 1000,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "lentils": {
+    "sku": "101543074_ST",
+    "query": "röda linser",
+    "name": "Röda Linser",
+    "manufacturer": "Garant Eko",
+    "package": "500g",
+    "quantity": 500,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "chickpeas": {
+    "sku": "101281323_ST",
+    "query": "kikärter",
+    "name": "Kikärter Naturella",
+    "manufacturer": "Garant",
+    "package": "380/230g",
+    "quantity": 230,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "beans": {
+    "sku": "101316741_ST",
+    "query": "kidneybönor",
+    "name": "Kidneybönor Naturella",
+    "manufacturer": "Garant",
+    "package": "380/230g",
+    "quantity": 230,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "tomato": {
+    "sku": "101285406_ST",
+    "query": "krossade tomater",
+    "name": "Tomater Krossade",
+    "manufacturer": "Garant",
+    "package": "390g",
+    "quantity": 390,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "potato": {
+    "sku": "101058267_ST",
+    "query": "potatis fast",
+    "name": "Potatis Fast Klass 1",
+    "manufacturer": "Garant",
+    "package": "2kg",
+    "quantity": 2000,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "onion": {
+    "sku": "100812738_ST",
+    "query": "gul lök",
+    "name": "Lök Gul i Påse Klass 1",
+    "manufacturer": "Garant",
+    "package": "1kg",
+    "quantity": 1000,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "carrot": {
+    "sku": "100794473_ST",
+    "query": "morötter",
+    "name": "Morötter Klass 1",
+    "manufacturer": "Garant",
+    "package": "1kg",
+    "quantity": 1000,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "broccoli": {
+    "sku": "101273514_ST",
+    "query": "broccoli",
+    "name": "Broccoli Buketter Frysta",
+    "manufacturer": "Eldorado",
+    "package": "1kg",
+    "quantity": 1000,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "spinach": {
+    "sku": "101349480_ST",
+    "query": "spenat hackad",
+    "name": "Hackad Spenat Fryst",
+    "manufacturer": "Findus",
+    "package": "450g",
+    "quantity": 450,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "banana": {
+    "sku": "100254920_KG",
+    "query": "banan",
+    "name": "Banan Klass 1",
+    "manufacturer": null,
+    "package": "ca: 180g",
+    "quantity": 1,
+    "unit": "st",
+    "retailPriceBasis": "kg"
+  },
+  "apple": {
+    "sku": "100144504_KG",
+    "query": "äpple",
+    "name": "Äpple Royal Gala Klass 1",
+    "manufacturer": null,
+    "package": "ca: 140g",
+    "quantity": 1,
+    "unit": "st",
+    "retailPriceBasis": "kg"
+  },
+  "bread": {
+    "sku": "101285787_ST",
+    "query": "rågbröd",
+    "name": "Rågbröd",
+    "manufacturer": "Garant",
+    "package": "320g",
+    "quantity": 320,
+    "unit": "g",
+    "retailPriceBasis": "pack",
+    "mayContain": [
+      "egg",
+      "milk"
+    ],
+    "ingredientReviewSource": "https://www.willys.se/axfood/rest/p/101285787_ST",
+    "ingredientReviewedAt": "2026-11-10"
+  },
+  "eggs": {
+    "sku": "101218667_ST",
+    "query": "ägg frigående",
+    "name": "Ägg 10p Frigående Utomhus Medium/large",
+    "manufacturer": "Garant",
+    "package": "10p",
+    "quantity": 10,
+    "unit": "st",
+    "retailPriceBasis": "pack"
+  },
+  "peanut": {
+    "sku": "101829766_ST",
+    "query": "jordnötssmör",
+    "name": "Jordnötssmör Creamy Ekologiskt",
+    "manufacturer": "Garant Eko",
+    "package": "350g",
+    "quantity": 350,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "tofu": {
+    "sku": "101358421_ST",
+    "query": "tofu naturell",
+    "name": "Tofu Fast Naturell Ekologisk",
+    "manufacturer": "Garant Eko",
+    "package": "400g",
+    "quantity": 400,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "chicken": {
+    "sku": "101222270_ST",
+    "query": "kycklingfilé",
+    "name": "Kycklingfilé Svensk Fryst",
+    "manufacturer": "Garant",
+    "package": "1kg",
+    "quantity": 1000,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "mince": {
+    "sku": "101106287_ST",
+    "query": "nötfärs",
+    "name": "Nötfärs 12% Sverige",
+    "manufacturer": "Garant",
+    "package": "500g",
+    "quantity": 500,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "tortilla": {
+    "sku": "101295571_ST",
+    "query": "tortilla original",
+    "name": "Tortilla Original Medium 8-pack",
+    "manufacturer": "Santa Maria",
+    "package": "320g",
+    "quantity": 320,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "oil": {
+    "sku": "101298386_ST",
+    "query": "rapsolja",
+    "name": "Rapsolja",
+    "manufacturer": "Eldorado",
+    "package": "1l",
+    "quantity": 1000,
+    "unit": "ml",
+    "retailPriceBasis": "pack"
+  },
+  "salt": {
+    "sku": "101227778_ST",
+    "query": "salt med jod",
+    "name": "Salt med Jod",
+    "manufacturer": "Jozo",
+    "package": "1kg",
+    "quantity": 1000,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "curry": {
+    "sku": "101202960_ST",
+    "query": "curry",
+    "name": "Curry Påse",
+    "manufacturer": "Eldorado",
+    "package": "80g",
+    "quantity": 80,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "cheese": {
+    "sku": "101224548_ST",
+    "query": "ost gouda",
+    "name": "Gouda Skivad 28%",
+    "manufacturer": "Eldorado",
+    "package": "400g",
+    "quantity": 400,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "couscous": {
+    "sku": "101547064_ST",
+    "query": "couscous",
+    "name": "Couscous",
+    "manufacturer": "Garant",
+    "package": "1kg",
+    "quantity": 1000,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "peas": {
+    "sku": "101433553_ST",
+    "query": "ärtor",
+    "name": "Ärter Frysta",
+    "manufacturer": "Eldorado",
+    "package": "1kg",
+    "quantity": 1000,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "mushroom": {
+    "sku": "101086165_ST",
+    "query": "champinjoner",
+    "name": "Champinjoner Klass 1",
+    "manufacturer": "Garant",
+    "package": "250g",
+    "quantity": 250,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "corn": {
+    "sku": "101355680_ST",
+    "query": "majs",
+    "name": "Majskorn",
+    "manufacturer": "Eldorado",
+    "package": "340/285g",
+    "quantity": 285,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "garlic": {
+    "sku": "100764898_ST",
+    "query": "vitlök",
+    "name": "Vitlök Kapsel Klass 1",
+    "manufacturer": null,
+    "package": "100g",
+    "quantity": 100,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "lemon": {
+    "sku": "100255117_ST",
+    "query": "citron",
+    "name": "Citron Klass 1",
+    "manufacturer": null,
+    "package": "ca150g",
+    "quantity": 1,
+    "unit": "st",
+    "retailPriceBasis": "pack"
+  },
+  "cucumber": {
+    "sku": "100594956_ST",
+    "query": "gurka",
+    "name": "Gurka Import Klass 1",
+    "manufacturer": null,
+    "package": "270g",
+    "quantity": 270,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  },
+  "salmon": {
+    "sku": "101804336_ST",
+    "query": "laxfilé fryst",
+    "name": "Laxfilé Fryst",
+    "manufacturer": "Omega",
+    "package": "4x125g",
+    "quantity": 500,
+    "unit": "g",
+    "retailPriceBasis": "pack"
+  }
+}

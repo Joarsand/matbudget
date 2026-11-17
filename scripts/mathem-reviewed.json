@@ -1,0 +1,340 @@
+{
+  "oats": {
+    "sku": 7075,
+    "quantity": 1500,
+    "unit": "g",
+    "query": "havregryn",
+    "sourceUrl": "https://www.mathem.se/se/products/7075-axa-havregryn/",
+    "expectedPackage": "1,5 kg",
+    "netQuantity": 1500
+  },
+  "oatdrink": {
+    "sku": 3182,
+    "quantity": 1000,
+    "unit": "ml",
+    "query": "havredryck",
+    "sourceUrl": "https://www.mathem.se/se/products/3182-oatly-ikaffe-barista-edition-havredryck-3/",
+    "expectedPackage": "1 l",
+    "netQuantity": 1000
+  },
+  "milk": {
+    "sku": 7460,
+    "quantity": 1000,
+    "unit": "ml",
+    "query": "standardmjölk",
+    "sourceUrl": "https://www.mathem.se/se/products/7460-arla-ko-r-farsk-standardmjolk-3/",
+    "expectedPackage": "1 l",
+    "netQuantity": 1000
+  },
+  "yogurt": {
+    "sku": 4617,
+    "quantity": 1000,
+    "unit": "g",
+    "query": "naturell yoghurt",
+    "sourceUrl": "https://www.mathem.se/se/products/4617-arla-ko-r-yoghurt-mild-3-naturell/",
+    "expectedPackage": "1000 g",
+    "netQuantity": 1000
+  },
+  "rice": {
+    "sku": 64201,
+    "quantity": 1000,
+    "unit": "g",
+    "query": "basmatiris",
+    "sourceUrl": "https://www.mathem.se/se/products/64201-garant-basmatiris/",
+    "expectedPackage": "1000 g",
+    "netQuantity": 1000
+  },
+  "pasta": {
+    "sku": 4694,
+    "quantity": 500,
+    "unit": "g",
+    "query": "fusilli pasta",
+    "sourceUrl": "https://www.mathem.se/se/products/4694-barilla-pasta-fusilli/",
+    "expectedPackage": "500 g",
+    "netQuantity": 500
+  },
+  "lentils": {
+    "sku": 5077,
+    "quantity": 400,
+    "unit": "g",
+    "query": "röda linser torra",
+    "sourceUrl": "https://www.mathem.se/se/products/5077-gogreen-roda-linser-torkade/",
+    "expectedPackage": "400 g",
+    "netQuantity": 400
+  },
+  "chickpeas": {
+    "sku": 4806,
+    "quantity": 230,
+    "unit": "g",
+    "query": "kikärter",
+    "sourceUrl": "https://www.mathem.se/se/products/4806-zeta-kikartor-eko/",
+    "expectedPackage": "380 g",
+    "netQuantity": 380
+  },
+  "tomato": {
+    "sku": 7505,
+    "quantity": 390,
+    "unit": "g",
+    "query": "krossade tomater",
+    "sourceUrl": "https://www.mathem.se/se/products/7505-garant-krossade-tomater/",
+    "expectedPackage": "390 g",
+    "netQuantity": 390
+  },
+  "potato": {
+    "sku": 6752,
+    "quantity": 2000,
+    "unit": "g",
+    "query": "potatis fast 1kg",
+    "sourceUrl": "https://www.mathem.se/se/products/6752-potatis-kok-fast-klass1/",
+    "expectedPackage": "Sverige, 2 kg",
+    "netQuantity": 2000
+  },
+  "onion": {
+    "sku": 5531,
+    "quantity": 1000,
+    "unit": "g",
+    "query": "gul lök 1kg",
+    "sourceUrl": "https://www.mathem.se/se/products/5531-lok-gul-pase-klass1/",
+    "expectedPackage": "Sverige, 1000 g",
+    "netQuantity": 1000
+  },
+  "carrot": {
+    "sku": 5690,
+    "quantity": 1000,
+    "unit": "g",
+    "query": "morötter 1kg",
+    "sourceUrl": "https://www.mathem.se/se/products/5690-morotter-1kg-klass1/",
+    "expectedPackage": "Sverige, 1 kg",
+    "netQuantity": 1000
+  },
+  "broccoli": {
+    "sku": 65314,
+    "quantity": 800,
+    "unit": "g",
+    "query": "broccoli fryst",
+    "sourceUrl": "https://www.mathem.se/se/products/65314-garant-broccoli-buketter-frysta/",
+    "expectedPackage": "800 g",
+    "netQuantity": 800
+  },
+  "spinach": {
+    "sku": 5780,
+    "quantity": 450,
+    "unit": "g",
+    "query": "spenat fryst",
+    "sourceUrl": "https://www.mathem.se/se/products/5780-garant-bladspenat-fryst/",
+    "expectedPackage": "450 g",
+    "netQuantity": 450
+  },
+  "bread": {
+    "sku": 7904,
+    "quantity": 1000,
+    "unit": "g",
+    "query": "rostbröd",
+    "sourceUrl": "https://www.mathem.se/se/products/7904-skogaholm-originalrost/",
+    "expectedPackage": "1000 g",
+    "netQuantity": 1000
+  },
+  "eggs": {
+    "sku": 10969,
+    "quantity": 20,
+    "unit": "st",
+    "query": "ägg",
+    "sourceUrl": "https://www.mathem.se/se/products/10969-kronagg-agg-frigaende-m-l/",
+    "expectedPackage": "20 st",
+    "netQuantity": 20
+  },
+  "peanut": {
+    "sku": 39055,
+    "quantity": 350,
+    "unit": "g",
+    "query": "jordnötssmör",
+    "sourceUrl": "https://www.mathem.se/se/products/39055-garant-eko-jordnotssmor-creamy-eko/",
+    "expectedPackage": "350 g",
+    "netQuantity": 350
+  },
+  "tofu": {
+    "sku": 2751,
+    "quantity": 200,
+    "unit": "g",
+    "query": "tofu naturell",
+    "sourceUrl": "https://www.mathem.se/se/products/2751-eldorado-tofu-naturell/",
+    "expectedPackage": "200 g",
+    "netQuantity": 200
+  },
+  "chicken": {
+    "sku": 3827,
+    "quantity": 1000,
+    "unit": "g",
+    "query": "kycklingfilé fryst",
+    "sourceUrl": "https://www.mathem.se/se/products/3827-kronfagel-kycklingfile-fryst/",
+    "expectedPackage": "1000 g",
+    "netQuantity": 1000
+  },
+  "mince": {
+    "sku": 33234,
+    "quantity": 500,
+    "unit": "g",
+    "query": "nötfärs",
+    "sourceUrl": "https://www.mathem.se/se/products/33234-garant-notfars-5/",
+    "expectedPackage": "500 g",
+    "netQuantity": 500
+  },
+  "tortilla": {
+    "sku": 1663,
+    "quantity": 320,
+    "unit": "g",
+    "query": "tortillabröd",
+    "sourceUrl": "https://www.mathem.se/se/products/1663-santa-maria-tortillas-medium-8-p/",
+    "expectedPackage": "320 g",
+    "netQuantity": 320
+  },
+  "oil": {
+    "sku": 10008,
+    "quantity": 1000,
+    "unit": "ml",
+    "query": "rapsolja",
+    "sourceUrl": "https://www.mathem.se/se/products/10008-eldorado-rapsolja/",
+    "expectedPackage": "1000 ml",
+    "netQuantity": 1000
+  },
+  "salt": {
+    "sku": 17720,
+    "quantity": 600,
+    "unit": "g",
+    "query": "salt jod",
+    "sourceUrl": "https://www.mathem.se/se/products/17720-jozo-fint-salt-med-jod/",
+    "expectedPackage": "600 g",
+    "netQuantity": 600
+  },
+  "curry": {
+    "sku": 9400,
+    "quantity": 34,
+    "unit": "g",
+    "query": "curry",
+    "sourceUrl": "https://www.mathem.se/se/products/9400-santa-maria-curry/",
+    "expectedPackage": "34 g",
+    "netQuantity": 34
+  },
+  "cheese": {
+    "sku": 67273,
+    "quantity": 500,
+    "unit": "g",
+    "query": "hushållsost",
+    "sourceUrl": "https://www.mathem.se/se/products/67273-arla-r-gotene-hushallsost-26/",
+    "expectedPackage": "500 g",
+    "netQuantity": 500
+  },
+  "couscous": {
+    "sku": 63648,
+    "quantity": 1000,
+    "unit": "g",
+    "query": "couscous",
+    "sourceUrl": "https://www.mathem.se/se/products/63648-garant-couscous/",
+    "expectedPackage": "1 kg",
+    "netQuantity": 1000
+  },
+  "peas": {
+    "sku": 9945,
+    "quantity": 1000,
+    "unit": "g",
+    "query": "gröna ärter frysta",
+    "sourceUrl": "https://www.mathem.se/se/products/9945-findus-arter-frysta/",
+    "expectedPackage": "1 kg",
+    "netQuantity": 1000
+  },
+  "mushroom": {
+    "sku": 6683,
+    "quantity": 250,
+    "unit": "g",
+    "query": "champinjoner",
+    "sourceUrl": "https://www.mathem.se/se/products/6683-champinjoner-klass1/",
+      "expectedPackage": "Polen, 250 g",
+      "expectedName": "Champinjoner Klass1",
+      "allowCountryChange": true,
+    "netQuantity": 250
+  },
+  "garlic": {
+    "sku": 4525,
+    "quantity": 100,
+    "unit": "g",
+    "query": "vitlök",
+    "sourceUrl": "https://www.mathem.se/se/products/4525-vitlok-eko-klass1/",
+    "expectedPackage": "Spanien, 100 g",
+    "netQuantity": 100
+  },
+  "cucumber": {
+    "sku": 4752,
+    "quantity": 320,
+    "unit": "g",
+    "query": "gurka",
+    "sourceUrl": "https://www.mathem.se/se/products/4752-gurka-eko-klass1/",
+    "expectedPackage": "Spanien, 320 g",
+    "netQuantity": 320
+  },
+  "banana": {
+    "sku": 4155,
+    "quantity": 1,
+    "unit": "st",
+    "query": "banan",
+    "sourceUrl": "https://www.mathem.se/se/products/4155-daily-greens-banan-eko-klass1/",
+    "expectedPackage": "Ecuador, 190 g",
+    "expectedName": "Banan EKO Klass1",
+    "netQuantity": 190,
+    "detailPattern": "Säljs styckvis",
+    "packageCount": 1
+  },
+  "apple": {
+    "sku": 66476,
+    "quantity": 4,
+    "unit": "st",
+    "query": "äpple",
+    "sourceUrl": "https://www.mathem.se/se/products/66476-apple-royal-gala-4-pack-klass1/",
+    "expectedPackage": "Österrike, 600 g",
+    "expectedName": "Äpple Royal Gala 4-pack Klass1",
+    "netQuantity": 600,
+    "packageCount": 4
+  },
+  "beans": {
+    "sku": 4685,
+    "quantity": 230,
+    "unit": "g",
+    "query": "kidneybönor",
+    "sourceUrl": "https://www.mathem.se/se/products/4685-garant-eko-kidneybonor-eko/",
+    "expectedPackage": "380 g",
+    "expectedName": "Kidneybönor EKO",
+    "netQuantity": 380,
+    "drainedQuantity": 230
+  },
+  "corn": {
+    "sku": 9362,
+    "quantity": 420,
+    "unit": "g",
+    "query": "majs",
+    "sourceUrl": "https://www.mathem.se/se/products/9362-bonduelle-majs-3-p/",
+    "expectedPackage": "450 g",
+    "expectedName": "Majs 3-p",
+    "netQuantity": 450,
+    "drainedQuantity": 420
+  },
+  "lemon": {
+    "sku": 7419,
+    "quantity": 1,
+    "unit": "st",
+    "query": "citron",
+    "sourceUrl": "https://www.mathem.se/se/products/7419-citron-eko-klass1/",
+    "expectedPackage": "Spanien, 160 g",
+    "expectedName": "Citron EKO Klass1",
+    "netQuantity": 160,
+    "packageCount": 1
+  },
+  "salmon": {
+    "sku": 61919,
+    "quantity": 500,
+    "unit": "g",
+    "query": "laxfilé fryst",
+    "sourceUrl": "https://www.mathem.se/se/products/61919-lillangshamnens-laxfile-fryst-4x125g/",
+    "expectedPackage": "500 g",
+    "expectedName": "Laxfilé Fryst 4x125g",
+    "netQuantity": 500
+  }
+}
