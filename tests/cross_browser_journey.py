@@ -90,10 +90,13 @@ if __name__=='__main__':
    try:
     with urllib.request.urlopen(BASE+'api/status',timeout=1):break
    except Exception:time.sleep(.1)
-  engines=os.environ.get('MATBUDGET_TEST_BROWSERS','chromium,firefox,webkit').split(',')
+  # This Windows environment cannot open Firefox's disposable profile. Keep normal
+  # local runs free of error dialogs; Linux CI still runs all three engines.
+  defaults='chromium,webkit' if os.name=='nt' else 'chromium,firefox,webkit'
+  engines=os.environ.get('MATBUDGET_TEST_BROWSERS',defaults).split(',')
   assert all(engine in ('chromium','firefox','webkit') for engine in engines)
   with ThreadPoolExecutor(max_workers=len(engines)) as pool:results=list(pool.map(journey,engines))
-  summary={'results':results,'workers':len(engines),'created':datetime.now(timezone.utc).isoformat(),'scope':'local current source; controlled AI, not live model validation'}
+  summary={'results':results,'workers':len(engines),'created':datetime.now(timezone.utc).isoformat(),'scope':'local current source; controlled AI, not live model validation','firefox_note':'Windows local default excludes Firefox after profile startup failures; Linux CI covers Firefox.' if os.name=='nt' and 'firefox' not in engines else None}
   (OUT/'results.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf8')
   print(json.dumps(summary,ensure_ascii=False));print('Artifacts:',OUT)
   raise SystemExit(0 if all(r['status']=='passed' for r in results) else 1)
